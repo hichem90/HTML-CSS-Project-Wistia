@@ -1,0 +1,375 @@
+html, body, .viewport {
+    width: 100%;      /*Force full width & height.*/                   
+    height: 100%;
+    margin: 0;
+  }
+
+div {
+
+border-width: 1px;
+border-style: dashed;
+border-color: black;
+
+    }
+
+#main-header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.header-element1{
+    order: 1;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-element2{
+    order: 2;
+    width: 50%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-element3{
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    
+}
+
+#main-navbar{
+    display: flex;
+    flex-direction: column;
+    padding: 
+
+}
+    
+.main-navbar-element1{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-navbar-element2{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-navbar-element3{
+    display: flex;
+    flex-direction: column;
+}
+
+#authentification-menu-signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#authentification-menu-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}   
+
+#main-section-homepage {
+    display: flex;
+    flex-direction: row;   
+}
+
+#homepage-info {
+    padding-left: 5%;
+    padding-top: 13%;
+    padding-bottom: 5%;
+    width: 50%;
+}    
+
+#homepage-image {
+    padding-right: 15%;
+    padding-top: 5%;
+    width: 50%;
+    
+}    
+
+
+.principal-menu-css ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.principal-menu-css li {
+    float: left;
+}
+
+
+.principal-menu-css li a {
+    display: block;
+    color: #a7aeb9;
+    font-weight: bold;
+    text-align: center;
+    height: 26px;
+    line-height: 26px;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    line-height: 58px;
+    font-size: 16px;
+    font-weight: 600;
+    height: 39px; 
+}
+
+.principal-menu-css .first-menu {
+ color: black;
+}
+.principal-menu-css a:hover {
+    color: #363948;
+    
+}
+
+.fa fa-sign-in {
+
+    height: 58px;
+    line-height: 58px;
+    position: absolute;
+    top: 0;
+    width: 14%;
+    padding-left: .5%;
+
+}
+
+.fa fa-sign-in {
+
+    height: 58px;
+    align-content: center;
+    line-height: 58px;
+    position: absolute;
+    top: 0;
+    width: 14%;
+    padding-left: .5%;
+}
+
+.brick-message {
+    display: flex;
+    flex-direction: row;
+}
+
+.homepage {
+    background-color: #CF9BA5;
+    font-weight: bold;
+    font-size: 32px;
+}
+.in {
+
+    width : 300px ;
+}
+
+.watch-button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #EFEFEF;
+    border: none;
+    border-radius: 15px; 
+   
+}
+
+.first-start-button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #FED24A;
+    border-radius: 15px; 
+    border-color: white;;
+    
+   
+}
+
+.second-start-button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    border-radius: 15px; 
+    border-color: white;;
+}
+
+.third-start-button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #00BFFF;
+    border-radius: 15px; 
+    border-color: white;;
+}
+
+
+.brick-message-1-class {
+    padding: 2%;
+    background-color: #FED24A;
+    font-size: 16px;
+    font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+    color: #363945;
+    width: 33%;
+
+}
+
+.brick-message-2-class {
+    padding: 2%;
+
+    background-color: aqua;
+    font-size: 16px;
+    font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+    color: #363945;
+    width: 33%;
+}
+
+.brick-message-3-class {
+    padding: 2%;
+    background-color: #00BFFF;
+    font-size: 16px;
+    font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+    color: #363945;
+    width: 33%;
+}
+
+
+.first-advertasing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.second-advertasing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#first-advertise {
+    max-width: 160px;
+    padding: 0 30px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #9CA8B7;
+}
+
+.secondary-section-first-advertise h3{
+    display: block;
+    font-size: 16px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: "Walsheim", sans-serif;
+}
+
+.secondary-section-first-advertise p{
+    font-size: 16px;
+    font-family: "Walsheim", sans-serif;
+    color: #363945;
+-webkit-font-smoothing: antialiased;
+}
+
+#promo-bar{
+    color: #777777;
+    font-size: 18px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    text-align: center;
+    background-color: #d6d6d6;
+    font-family: Walsheim, sans-serif;
+    
+}
+
+#footer-container{
+display: flex;
+flex-direction: row;
+margin-bottom: 2.5%;
+}
+
+#footer-container a:hover{
+text-decoration: underline;
+}   
+
+.footer-conainer-class{
+color: #fff;
+font-size: 23px;
+
+}
+.social-media-links{
+    color: #00BFFF;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+
+.right-footer-links{
+    color: #b2b9c1;;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#footer-container-left{
+    width: 40%;
+
+}
+
+#footer-container-right{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.footer-container-right{
+    color: #fff;
+    font-size: 23px;
+}
+
+.footer-class{
+    display: flex;
+    flex-direction: column;
+    background-color: #363945;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+hr{
+    display: block;
+    width: 500px;
+    background: #b2b9c1;
+}
